@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kawsar Ahmad - Junior Software Engineer</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+
     </head>
     <body>
         <div class="background">
@@ -60,7 +61,7 @@
                     <div class="header">Hello World!</div>
                     <div class="home-content">
                         <div class="profile-container">
-                            <img src="assets/images/profile.png"
+                            <img src="{{asset('assets/images/profile.png')}}"
                                 alt="Kawsar Ahmad" class="profile-image">
                             <div class="profile-text">
                                 <h2>I'm Kawsar Ahmad</h2>
@@ -82,7 +83,7 @@
                         <a href="https://www.kaggle.com/kawsarahmad"
                             target="_blank"
                             class="button">Kaggle</a>
-                        <a href="assets/docs/cv.pdf" target="_blank" download
+                        <a href="{{asset('assets/docs/cv.pdf')}}" target="_blank" download
                             class="button">Download CV</a>
                     </div>
                 </div>
@@ -91,7 +92,7 @@
                     <div class="header">About Me</div>
                     <div class="about-content">
                         <div class="profile-container">
-                            <img src="assets/images/profile.png"
+                            <img src="{{asset('assets/images/profile.png')}}"
                                 alt="Kawsar Ahmad" class="profile-image">
                             <div class="profile-text">
 
@@ -121,7 +122,7 @@
                         <a href="https://www.kaggle.com/kawsarahmad"
                             target="_blank"
                             class="button">Kaggle</a>
-                        <a href="assets/docs/cv.pdf" target="_blank" download
+                        <a href="{{asset('assets/docs/cv.pdf')}}" target="_blank" download
                             class="button">Download CV</a>
                     </div>
                 </div>
@@ -453,7 +454,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 <div id="contact" class="content-section">
                     <div class="section-header">Contact</div>
@@ -476,13 +477,13 @@
                         </div>
                     </div>
                 </div>
-                
-                
-                
+
+
+
             </div>
         </div>
 
-        <script src="js/script.js"></script>
-        <script src="js/contact.js"></script>
+        <script src="{{asset('js/script.js')}}"></script>
+        <script src="{{asset('js/contact.js')}}"></script>
     </body>
 </html>
